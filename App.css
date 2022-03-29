@@ -1,0 +1,65 @@
+:root {
+  --main-text-color: rgb(17, 16, 16);
+    color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "arial";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(./img/background.png);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conteiner{
+  border-radius: 20px;
+  padding: 100px;
+  text-align: center;
+  height: 30vh;
+  width: 45vw;
+  background: rgb(0,0,0, 0.4);
+  backdrop-filter: (10px);
+  -webkit-backdrop-filter: blur(10px);
+} 
+h2{
+  margin-top: 1px;
+}
+.main{
+   color: white;
+   line-height: 0;
+   font-family: 'Inconsolata', monospace;
+}
+.main h1{
+  font-size: 5em;
+  font-weight: 600;
+}
+.main h2{
+  letter-spacing: 2px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  color: white;
+}
+ h3 { 
+  font-family: 'Inconsolata', monospace; 
+  text-transform: capitalize;
+}
+
+.calor{
+  background-image:url(./img/calor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.frio{
+  background-image:url(./img/chuva.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
